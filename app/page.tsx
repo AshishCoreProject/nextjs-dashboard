@@ -16,7 +16,10 @@ export default function Page() {
       </div>
       <p className={`${whisper.className}`}>Here is my app</p>
       <button>
-        <Link className={`${whisper.className}`} href="/dashboard">
+        <Link
+          className={`${whisper.className}  rounded-md border-0 border-sky-700 p-2 text-2xl font-extrabold shadow-lg hover:border-b-4 hover:bg-sky-500 hover:text-white hover:shadow-2xl`}
+          href="/dashboard"
+        >
           your dashboard
         </Link>
       </button>
